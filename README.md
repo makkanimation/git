@@ -32,23 +32,31 @@ Usefull Command
 Deploy to Server
 =========================================================================================
 	- To pull from GIT server
+	
 		- git pull origin main
 
 	- To show changes 
+	
 		- git status 
 
 	- To add files/Folders
+	
 		-git add .
 
 	- To Commit
+	
 		- git commit -m "Meanfully Comment"
 
 	- To push to GIT sever
+	
 		- git push origin main
 
 ============================================================
+
 	- To temporary remove all current change
+	
 		- git stash
 		
 	- To Get lastest stash 
+	
 		- git stash pop
