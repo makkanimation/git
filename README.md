@@ -60,3 +60,13 @@ Deploy to Server
 	- To Get lastest stash 
 	
 		- git stash pop
+
+## Reseting Conflict Merge
+	If you dont want to merge the changes and still want to update your local then run:
+
+	 - git reset --hard HEAD  
+	This will reset your local with HEAD and then pull your remote using git pull.
+
+	If you've already committed your merge locally (but haven't pushed to remote yet), and want to revert it as well:
+
+	-  git reset --hard HEAD~1 
