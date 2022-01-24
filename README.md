@@ -70,3 +70,4 @@ Deploy to Server
 	If you've already committed your merge locally (but haven't pushed to remote yet), and want to revert it as well:
 
 	-  git reset --hard HEAD~1 
+	https://stackoverflow.com/questions/26376832/why-does-git-say-pull-is-not-possible-because-you-have-unmerged-files
