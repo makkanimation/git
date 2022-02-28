@@ -71,3 +71,7 @@ Deploy to Server
 
 	-  git reset --hard HEAD~1 
 	https://stackoverflow.com/questions/26376832/why-does-git-say-pull-is-not-possible-because-you-have-unmerged-files
+
+
+## Fix error error: pathspec '' did not match any file(s) known to git
+https://www.youtube.com/watch?v=dTkHmcJsCvM
