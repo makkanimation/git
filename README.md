@@ -75,3 +75,7 @@ Deploy to Server
 
 ## Fix error error: pathspec '' did not match any file(s) known to git
 https://www.youtube.com/watch?v=dTkHmcJsCvM
+
+## Reset git add selected file : How do I undo 'git add' before commit?
+	git reset <file>
+ 	https://stackoverflow.com/questions/348170/how-do-i-undo-git-add-before-commit
