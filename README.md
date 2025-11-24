@@ -3,6 +3,8 @@
 ## How can i save username and password in GIT
 https://stackoverflow.com/questions/35942754/how-can-i-save-username-and-password-in-git
 
+	- Run Composer
+		php -d date.timezone="Asia/Kolkata" $(which composer || echo /usr/local/bin/composer) dump-autoload
 To setup MFG platform on local
 ========================================================================================
 	- Create an new instance 
