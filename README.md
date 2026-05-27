@@ -1,5 +1,23 @@
 # git
-
+## How to add existing project to git
+	- intialize
+		git init -b main
+	- add 
+		git add .
+	- commit
+		git commit -m "Initial commit"
+	- Connect to a remote
+		git remote add origin <your-remote-url>
+	- push
+		git push -u origin main
+	- if you get error of (error: src refspec main does not match any)
+			- Rename your local branch to main
+				git branch -M main
+			-  Check for uncommitted files
+				git add .
+				git commit -m "Initial commit"
+				git push -u origin main
+				
 ## How can i save username and password in GIT
 https://stackoverflow.com/questions/35942754/how-can-i-save-username-and-password-in-git
 
